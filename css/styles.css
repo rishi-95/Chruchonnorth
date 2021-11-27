@@ -1,0 +1,273 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: orange;
+}
+
+.header img {
+    padding: 0 0.2rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.header .right .phone,
+.header .right .mail {
+    padding: 0 0.5rem;
+}
+
+.header .right img {
+    height: 0.9rem;
+    width: 0.9rem;
+}
+
+.header .right,
+.header .right .phone,
+.header .right .mail {
+    display: flex;
+    align-items: center;    
+}
+
+.hero-page {
+    position: relative;
+    min-height: 400px;
+    background-color: #adadad;
+}
+
+.hero-page .logo img {
+    height: 10rem;
+    width: 12rem;
+    position: absolute;
+    left: 8%;
+}
+
+.hero-page .navigation {
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #fff;
+}
+
+.hero-page .navigation a {
+    padding: 1rem 1.5rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.hero-page .main-hero {
+    display: flex;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.about-section,
+.college-section,
+.admission-section,
+.achievement-section {
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 241, 250);
+}
+
+.about-us {
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+
+.about-us .heading {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;    
+}
+
+.about-us .read-more-about {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: black;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.about-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-section {
+    justify-content: space-around;
+    background-color: #707070;
+}
+
+.college-section img {
+    width: 32vw;
+    height: 20vw;  
+    margin-top: 1rem; 
+}
+
+.college-section .college {
+    width: 33.33vw;
+    text-align: center;
+}
+
+.college-section .clg-type {
+    font-weight: 900;
+    color: #fff;
+    padding: 0.7rem 0 1rem 0;
+}
+
+
+.admission-section {
+    padding: 2rem 0 2rem 10%;
+    color: #fff;
+    position: relative;
+    background-color: #bdbdbd;
+}
+
+.adm-tag {
+    background-color: orange;
+    padding: 1.5rem 0 1.5rem 10rem;
+    width: 50%;
+    border-radius: 150px;
+}
+
+.adm-route {
+    background-color: orange;
+    padding: 1.5rem 0 1.5rem 2rem;
+    width: 10%;
+    position: absolute;
+    left: 60%;
+    background-color: lightblue;
+    border-radius: 150px;
+}
+
+.adm-route a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.achievement-section {
+    min-height: 20vw;
+    background-color: orange;
+    justify-content: space-around;
+}
+
+.ach {
+    border: 1px solid #fff;
+    min-height: 18vw;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ach-no {
+    padding: 0.5rem 0;
+}
+
+.team-section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.team-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.team-des {
+    color: #686767;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.team-images-sec,
+.image-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-mem {
+    margin: 1vw;
+    width: calc(22vw - 0.5rem);
+}
+
+.image-sec {
+    height: 15vw;
+    background-color: #7d7d7d;
+}
+
+.team-mem-details {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: orange;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+.mem-designation {
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.contact-section {
+    padding: 2rem 10%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.con-tagline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.contact-btn {
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.footer {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: lightblue;
+}
